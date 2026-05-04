@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import logo from '../assets/identi wear - Logo Design - FF.png'
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
@@ -13,11 +14,7 @@ export default function Navbar() {
     <nav className="nav" style={{ boxShadow: scrolled ? '0 4px 40px rgba(0,0,0,0.5)' : 'none' }}>
       <div className="nav-inner">
         <div className="nav-brand">
-          <div className="nav-brand-icon">iW</div>
-          <div>
-            <div className="nav-brand-name">identi<span>WARE</span></div>
-            <span className="nav-brand-sub">by Identity Aesthetics</span>
-          </div>
+          <img src={logo} alt="identiWARE" className="nav-logo-img" />
         </div>
 
         <div className="nav-links">

@@ -5,7 +5,7 @@ export default function QuoteSection() {
         <div className="quote-ornament">"</div>
         <div className="quote-deco">✦ &nbsp; ✦ &nbsp; ✦</div>
         <p className="quote-text">
-          "We didn't just build a med spa — we built a replicable system that works in any
+          "We didn't just build a med spa we built a replicable system that works in any
           Texas market. identiWARE is how we share that blueprint with people who are serious
           about owning their chapter of this story."
         </p>

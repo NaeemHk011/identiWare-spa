@@ -110,6 +110,7 @@ a { text-decoration: none; color: inherit; }
   display: flex; align-items: center; justify-content: space-between; height: 76px;
 }
 .nav-brand { display: flex; align-items: center; gap: 13px; }
+.nav-logo-img { height: 64px; width: auto; display: block; object-fit: contain; }
 .nav-brand-icon {
   width: 42px; height: 42px;
   background: linear-gradient(135deg, var(--teal), var(--teal-dark));
@@ -420,8 +421,9 @@ a { text-decoration: none; color: inherit; }
 
 /* ─── APPLY FORM ─── */
 .apply-sec { padding: 8rem 5%; background: var(--white); }
-.apply-inner { max-width: 1320px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 7rem; align-items: center; }
-.apply-img { border-radius: 28px; overflow: hidden; aspect-ratio: 4/5; position: relative; }
+.apply-heading { max-width: 1320px; margin: 0 auto 3rem; text-align: center; }
+.apply-inner { max-width: 1320px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 7rem; align-items: start; }
+.apply-img { border-radius: 28px; overflow: hidden; height: 800px; position: relative; }
 .apply-img img { width: 100%; height: 100%; object-fit: cover; }
 .apply-img-overlay {
   position: absolute; inset: 0;
@@ -457,6 +459,8 @@ a { text-decoration: none; color: inherit; }
 .form-submit:hover { transform: translateY(-3px); box-shadow: 0 18px 44px rgba(61,102,82,0.28); }
 .form-note { text-align: center; font-size: 0.73rem; color: var(--text3); margin-top: 1.2rem; }
 .form-note a { color: var(--teal); font-weight: 700; }
+.ghl-form-wrapper { width: 100%; border-radius: 14px; overflow: hidden; background: var(--blush); }
+.ghl-form-wrapper iframe { display: block; }
 @media(max-width:1024px){.apply-inner{grid-template-columns:1fr;gap:3rem}.apply-img{display:none}}
 @media(max-width:640px){.form-row{grid-template-columns:1fr}}
 
@@ -467,9 +471,7 @@ footer { background: var(--text); padding: 5.5rem 5% 2.5rem; }
   display: grid; grid-template-columns: 2fr 1fr 1fr 1fr;
   gap: 3.5rem; padding-bottom: 4rem; border-bottom: 1px solid rgba(255,255,255,0.08);
 }
-.ft-brand .ft-name { font-family: var(--serif); font-size: 1.6rem; color: #fff; }
-.ft-brand .ft-name span { color: var(--teal2); }
-.ft-brand .ft-by { font-size: 0.58rem; letter-spacing: 0.28em; text-transform: uppercase; color: rgba(255,255,255,0.28); margin-bottom: 1.2rem; display: block; margin-top: 2px; }
+.ft-logo-img { height: 80px; width: auto; object-fit: contain; margin-bottom: 1.2rem; display: block; border-radius: 8px; }
 .ft-brand p { font-size: 0.8rem; color: rgba(255,255,255,0.38); line-height: 1.88; max-width: 270px; }
 .ft-col h4 { font-size: 0.62rem; letter-spacing: 0.3em; text-transform: uppercase; color: var(--teal2); margin-bottom: 1.5rem; font-weight: 700; }
 .ft-col a { display: block; font-size: 0.78rem; color: rgba(255,255,255,0.38); margin-bottom: 0.7rem; transition: color var(--transition); }
@@ -479,6 +481,9 @@ footer { background: var(--text); padding: 5.5rem 5% 2.5rem; }
   display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;
 }
 .ft-copy { font-size: 0.68rem; color: rgba(255,255,255,0.18); }
+.footer-powered { max-width: 1320px; margin: 1rem auto 0; text-align: center; font-size: 0.65rem; color: rgba(255,255,255,0.18); }
+.footer-powered a { color: rgba(255,255,255,0.35); text-decoration: none; font-weight: 600; transition: color 0.2s; }
+.footer-powered a:hover { color: var(--teal2); }
 .ft-socials { display: flex; gap: 0.8rem; }
 .ft-soc {
   width: 38px; height: 38px; border-radius: 50%;

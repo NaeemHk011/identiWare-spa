@@ -17,7 +17,7 @@ export default function Hero() {
         </h1>
 
         <p className="hero-desc">
-          identiWARE is Identity Aesthetics' elite partnership program — engineered to transform
+          identiWARE is Identity Aesthetics' elite partnership program engineered to transform
           ambitious operators into luxury med spa owners. From lease negotiation to grand opening,
           every detail is handled. Proven across Texas. Open to you.
         </p>

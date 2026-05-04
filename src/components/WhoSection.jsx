@@ -2,7 +2,7 @@ const cards = [
   {
     icon: '🏢',
     title: 'Operators & Entrepreneurs',
-    text: 'You have the drive, the capital, and the vision. What you need is a replicable system that eliminates guesswork. identiWARE delivers full infrastructure, supply chains, and strategic backing — so you can lead, not figure things out.',
+    text: 'You have the drive, the capital, and the vision. What you need is a replicable system that eliminates guesswork. identiWARE delivers full infrastructure, supply chains, and strategic backing so you can lead, not figure things out.',
   },
   {
     icon: '✨',
@@ -46,7 +46,7 @@ export default function WhoSection() {
           </h2>
           <p className="sec-p" style={{ marginBottom: 0 }}>
             Three types of high-achieving people who are ready to own a luxury med spa
-            — and smart enough to do it with the right system behind them.
+           and smart enough to do it with the right system behind them.
           </p>
           <div className="who-cards">
             {cards.map((c) => (

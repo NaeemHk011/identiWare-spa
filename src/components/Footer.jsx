@@ -1,12 +1,13 @@
+import logo from '../assets/05a2d92b-fea5-49b7-8eda-e042ccd40631.jpg'
+
 export default function Footer() {
   return (
     <footer>
       <div className="footer-top">
         <div className="ft-brand">
-          <div className="ft-name">identi<span>WARE</span></div>
-          <span className="ft-by">by Identity Aesthetics</span>
+          <img src={logo} alt="identiWARE" className="ft-logo-img" />
           <p>
-            At Identity Aesthetics, we are here to meet every aesthetic treatment need —
+            At Identity Aesthetics, we are here to meet every aesthetic treatment need
             and now, to help you own your own chapter of this story. Luxury med spa
             ownership, done right, done with you.
           </p>
@@ -39,7 +40,7 @@ export default function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <div className="ft-copy">© 2026 Identity Aesthetic Center LLC — All Rights Reserved</div>
+        <div className="ft-copy">© 2026 Identity Aesthetic Center LLC - All Rights Reserved</div>
         <div className="ft-socials">
           <a href="https://www.facebook.com/identityAestheticCenters/" target="_blank" rel="noreferrer" className="ft-soc" aria-label="Facebook">f</a>
           <a href="https://www.instagram.com/identityaesthetics/" target="_blank" rel="noreferrer" className="ft-soc" aria-label="Instagram">ig</a>
@@ -48,6 +49,11 @@ export default function Footer() {
         <div className="ft-copy">
           <a href="https://713botoxme.com/privacy-policy/" target="_blank" rel="noreferrer" style={{ color: 'inherit' }}>Privacy Policy</a>
         </div>
+      </div>
+
+      <div className="footer-powered">
+        Powered by&nbsp;
+        <a href="https://axistechgroup.com/" target="_blank" rel="noreferrer">AxisTechGroup</a>
       </div>
     </footer>
   )

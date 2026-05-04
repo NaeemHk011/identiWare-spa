@@ -47,11 +47,11 @@ export default function BrandSection() {
           <p className="sec-p" style={{ marginBottom: '1.4rem' }}>
             When you partner through identiWARE, you don't build from scratch. You inherit years
             of brand equity, a loyal client base, relationships with premier medical suppliers,
-            and proven clinical protocols — tested across 5 thriving Texas markets.
+            and proven clinical protocols tested across 5 thriving Texas markets.
           </p>
           <p className="sec-p" style={{ marginBottom: '1.8rem' }}>
             The playbook is written. The brand is trusted. The supply chain is negotiated.
-            You step in and execute — backed by everything we've already built.
+            You step in and execute backed by everything we've already built.
           </p>
           <div className="brand-pills">
             {pills.map((p) => (

@@ -3,13 +3,13 @@ const steps = [
     num: '1',
     img: 'https://images.unsplash.com/photo-1556745757-8d76bdb6984b?w=400&q=80&fit=crop&crop=face',
     title: 'Discovery Call',
-    text: 'A private, zero-pressure strategy consultation. We learn your goals, market, vision, and capital position — and you learn exactly how identiWARE can work for you.',
+    text: 'A private, zero-pressure strategy consultation. We learn your goals, market, vision, and capital position and you learn exactly how identiWARE can work for you.',
   },
   {
     num: '2',
     img: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=400&q=80&fit=crop',
     title: 'Partnership Agreement',
-    text: 'We craft a custom deal structure — equity partner, franchise, or co-investment model — designed around your situation, your goals, and your long-term vision.',
+    text: 'We craft a custom deal structure equity partner, franchise, or co-investment model designed around your situation, your goals, and your long-term vision.',
   },
   {
     num: '3',
@@ -21,7 +21,7 @@ const steps = [
     num: '4',
     img: 'https://images.unsplash.com/photo-1560750133-c4ca1c0f7c7d?w=400&q=80&fit=crop&crop=face',
     title: 'Training & Grand Opening',
-    text: 'Staff fully trained, booking systems live, marketing campaigns launched. We stand beside you on opening day — because your success is our success.',
+    text: 'Staff fully trained, booking systems live, marketing campaigns launched. We stand beside you on opening day because your success is our success.',
   },
 ]
 

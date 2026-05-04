@@ -12,7 +12,7 @@ export default function OfferBanner() {
 
         <p className="offer-p">
           We handle the complexity so you can focus on ownership. Join the identiWARE
-          partnership program and open a luxury med spa with every system already in place —
+          partnership program and open a luxury med spa with every system already in place
           the brand, the buildout, the back-office, and beyond. This is not just a franchise.
           This is a co-owned empire built on a proven foundation.
         </p>
