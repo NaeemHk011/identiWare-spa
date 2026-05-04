@@ -23,7 +23,7 @@ export default function Hero() {
         </p>
 
         <div className="hero-btns">
-          <a href="#apply" className="btn-pink">Apply for Partnership →</a>
+          <a href="#apply" className="btn-primary">Apply for Partnership →</a>
           <a href="#services" className="btn-ghost">See How It Works</a>
         </div>
 

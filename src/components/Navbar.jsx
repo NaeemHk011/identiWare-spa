@@ -22,7 +22,7 @@ export default function Navbar() {
           <a href="#who">Who It's For</a>
           <a href="#process">The Process</a>
           <a href="#brand">Our Brand</a>
-          <a href="#apply" className="nav-cta">Apply Now →</a>
+          <a href="#apply" className="nav-cta">Book Appointment →</a>
         </div>
 
         <div className="nav-hamburger" role="button" aria-label="Menu">
