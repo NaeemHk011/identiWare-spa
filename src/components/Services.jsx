@@ -29,7 +29,7 @@ const services = [
     icon: '⚙️',
     img: treatmentRoomImg,
     title: 'Complete Operating System',
-    text: 'Clinical Protocols. Compliance Documentation. Booking infrastructure, staff training manuals, and a full marketing playbook   every system a licensed provider needs to open and operate compliantly from day one. The entire engine, installed and ready.',
+    text: 'Clinical Protocols. Compliance Documentation. Booking infrastructure, staff training manuals, and a full marketing playbook   every system a licensed provider needs to open and operate compliantly from day one. "The entire engine, installed and ready".',
   },
   {
     num: '05',
