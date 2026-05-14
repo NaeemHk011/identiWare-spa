@@ -10,6 +10,7 @@ import Process from './components/Process'
 import BrandSection from './components/BrandSection'
 import OfferBanner from './components/OfferBanner'
 import QuoteSection from './components/QuoteSection'
+import PainSolution from './components/PainSolution'
 import ApplyForm from './components/ApplyForm'
 import Footer from './components/Footer'
 
@@ -47,8 +48,13 @@ export default function App() {
 
       <WhoSection />
 
-      {/* Who → Process */}
-      <WaveDivider topColor="var(--bg)" bottomColor="var(--bg2)" />
+      {/* Who → Pain/Solution */}
+      <WaveDivider topColor="#FFFFFF" bottomColor="#FCF5F6" />
+
+      <PainSolution />
+
+      {/* Pain/Solution → Process */}
+      <WaveDivider topColor="#FCF5F6" bottomColor="#F8EDEF" flip />
 
       <Process />
 

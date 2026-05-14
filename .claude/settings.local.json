@@ -2,7 +2,11 @@
   "permissions": {
     "allow": [
       "Bash(npm run *)",
-      "Bash(npx vite *)"
+      "Bash(npx vite *)",
+      "Bash(powershell -command \"Expand-Archive -Path 'revision pictures.zip' -DestinationPath 'revision_pictures' -Force\")",
+      "Bash(dir /s /b \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\TechGenics\\\\identiWare-spa\\\\revision_pictures\")",
+      "Bash(node -e ' *)",
+      "Bash(npm install *)"
     ]
   }
 }

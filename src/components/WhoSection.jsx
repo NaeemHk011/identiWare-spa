@@ -1,18 +1,21 @@
+import physicianImg from '../assets/physician-entrepreneur.jpg'
+import nurseImg from '../assets/nurse-practitioner.jpg'
+
 const cards = [
   {
-    icon: '🏢',
-    title: 'Operators & Entrepreneurs',
-    text: 'You have the drive, the capital, and the vision. What you need is a replicable system that eliminates guesswork. identiWARE delivers full infrastructure, supply chains, and strategic backing so you can lead, not figure things out.',
+    icon: '🩺',
+    title: 'Physicians & MDs',
+    text: 'You spent years mastering medicine   not managing contractors, compliance paperwork, or lease negotiations. identiWARE hands you a finished, operating luxury med spa so you can practice at the top of your license and lead as an owner, not an administrator.',
   },
   {
-    icon: '✨',
-    title: 'Licensed Estheticians',
-    text: 'You have mastered the craft. Now step into ownership. Build real equity in your own luxury space, operate under a brand clients already trust across Texas, and serve your clients at a level that reflects your true expertise.',
+    icon: '💉',
+    title: 'Nurse Practitioners (NPs)',
+    text: 'Your NP license is your most powerful business asset. IdentiWARE wraps it in a complete operating system   clinical protocols, MSO structure, staffing, and a luxury brand already trusted across Texas. You bring the credential. We bring everything else.',
   },
   {
-    icon: '📈',
-    title: 'Investors & Co-Founders',
-    text: 'The medical aesthetics industry is a $22 billion and growing market. Partner with a brand that has real locations, real revenue, and a structured co-ownership model designed to protect and multiply your investment.',
+    icon: '🏥',
+    title: 'Physician Assistants (PAs)',
+    text: 'PAs are among the most capable providers in aesthetics   yet administrative barriers keep too many from owning their practice. IdentiWARE eliminates every one of those barriers with done-for-you buildouts, compliance documentation, and bespoke deal structuring designed around your legal and financial needs.',
   },
 ]
 
@@ -23,14 +26,14 @@ export default function WhoSection() {
         <div className="who-img-wrap reveal">
           <div className="who-img-main">
             <img
-              src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=800&q=85&fit=crop"
-              alt="Luxury Med Spa Owner"
+              src={physicianImg}
+              alt="Physician Entrepreneur — Licensed Provider Becoming Med Spa Owner"
             />
           </div>
           <div className="who-img-accent">
             <img
-              src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=500&q=80&fit=crop"
-              alt="Spa Treatment"
+              src={nurseImg}
+              alt="Nurse Practitioner in Clinical Setting"
             />
           </div>
           <div className="who-badge">
@@ -40,13 +43,13 @@ export default function WhoSection() {
         </div>
 
         <div className="reveal d2">
-          <div className="sec-tag">Ideal Partners</div>
+          <div className="sec-tag">Provider Partnerships</div>
           <h2 className="sec-h2" style={{ textAlign: 'left', marginBottom: '0.8rem' }}>
-            Who Is <em>identiWARE</em><br />Built For?
+            Built for the <em>Licensed Provider</em><br />Ready to Own.
           </h2>
           <p className="sec-p" style={{ marginBottom: 0 }}>
-            Three types of high-achieving people who are ready to own a luxury med spa
-           and smart enough to do it with the right system behind them.
+            Three types of licensed medical professionals who are ready to step from practitioner
+            to owner   with a turnkey system that handles every barrier between them and their med spa.
           </p>
           <div className="who-cards">
             {cards.map((c) => (

@@ -11,7 +11,7 @@ export default function QuoteSection() {
         </p>
         <div className="quote-author">
           <div className="qa-line" />
-          <div className="qa-name">Identity Aesthetics — Founder</div>
+          <div className="qa-name">Identity Aesthetics   Founder</div>
           <div className="qa-line right" />
         </div>
       </div>

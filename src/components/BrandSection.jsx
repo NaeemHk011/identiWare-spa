@@ -50,7 +50,7 @@ export default function BrandSection() {
             and proven clinical protocols tested across 5 thriving Texas markets.
           </p>
           <p className="sec-p" style={{ marginBottom: '1.8rem' }}>
-            The playbook is written. The brand is trusted. The supply chain is negotiated.
+            The playbook is written. The brand is proven. The supply chain is in place.
             You step in and execute backed by everything we've already built.
           </p>
           <div className="brand-pills">

@@ -31,7 +31,7 @@ export default function ApplyForm() {
           <div className="apply-img-overlay" />
           <div className="apply-img-text">
             <h3>Let's Build<br />Yours Together</h3>
-            <p>We respond within 48 hours — no pressure, pure strategy.</p>
+            <p>We respond within 48 hours   no pressure, pure strategy.</p>
           </div>
         </div>
 

@@ -1,27 +1,40 @@
 const steps = [
   {
-    num: '1',
-    img: 'https://images.unsplash.com/photo-1556745757-8d76bdb6984b?w=400&q=80&fit=crop&crop=face',
-    title: 'Discovery Call',
-    text: 'A private, zero-pressure strategy consultation. We learn your goals, market, vision, and capital position and you learn exactly how identiWARE can work for you.',
+    num: '01',
+    icon: '🩺',
+    title: 'Licensed Provider',
+    sub: 'You bring the credential',
   },
   {
-    num: '2',
-    img: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=400&q=80&fit=crop',
+    num: '02',
+    icon: '🤝',
     title: 'Partnership Agreement',
-    text: 'We craft a custom deal structure equity partner, franchise, or co-investment model designed around your situation, your goals, and your long-term vision.',
+    sub: 'MSO-compliant deal built for you',
   },
   {
-    num: '3',
-    img: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=400&q=80&fit=crop',
-    title: 'Site & Full Buildout',
-    text: 'Location scouted and secured. Lease negotiated on your behalf. Construction and luxury buildout executed to Identity Aesthetics standards. Turnkey and ready.',
+    num: '03',
+    icon: '🏗️',
+    title: 'Turnkey Build-Out',
+    sub: 'Location, lease & construction',
   },
   {
-    num: '4',
-    img: 'https://images.unsplash.com/photo-1560750133-c4ca1c0f7c7d?w=400&q=80&fit=crop&crop=face',
-    title: 'Training & Grand Opening',
-    text: 'Staff fully trained, booking systems live, marketing campaigns launched. We stand beside you on opening day because your success is our success.',
+    num: '04',
+    icon: '📋',
+    title: 'Clinical Training',
+    sub: 'Protocols & compliance ready',
+  },
+  {
+    num: '05',
+    icon: '🥂',
+    title: 'Grand Opening',
+    sub: 'We stand beside you on day one',
+  },
+  {
+    num: '06',
+    icon: '👑',
+    title: 'Owner / CEO',
+    sub: 'Freedom. Equity. Your chapter.',
+    final: true,
   },
 ]
 
@@ -30,26 +43,39 @@ export default function Process() {
     <section className="process-sec" id="process">
       <div className="process-inner">
         <div className="sec-head reveal" style={{ maxWidth: 620, margin: '0 auto 0' }}>
-          <div className="sec-tag">The Journey</div>
-          <h2 className="sec-h2">From First Call to <em>Grand Opening</em></h2>
+          <div className="sec-tag">The Provider Roadmap</div>
+          <h2 className="sec-h2">From Licensed Provider<br />to <em>Owner / CEO</em></h2>
           <p className="sec-p">
-            Four clear, guided steps from your initial consultation to the moment you unlock
-            your own luxury med spa. Our team holds your hand through every one.
+            Six clear milestones from your first consultation to the moment you unlock
+            a finished, operating luxury med spa. Your license starts it. We complete it.
           </p>
         </div>
 
-        <div className="process-steps">
-          <div className="process-line" />
-          {steps.map((s, i) => (
-            <div className={`pstep reveal d${i + 1}`} key={s.num}>
-              <div className="pstep-circle">
-                <img src={s.img} alt={s.title} loading="lazy" />
-                <div className="pstep-badge">{s.num}</div>
+        <div className="roadmap-h reveal d2">
+          {/* SVG wavy connecting line */}
+          <svg className="roadmap-svg" viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true">
+            <path
+              d="M 100,30 C 150,10 200,50 250,30 C 300,10 350,50 400,30 C 450,10 500,50 550,30 C 600,10 650,50 700,30 C 750,10 800,50 850,30 C 900,10 950,50 1000,30 C 1050,10 1100,50 1150,30"
+              fill="none"
+              stroke="var(--teal)"
+              strokeWidth="2.5"
+              strokeOpacity="0.35"
+              strokeLinecap="round"
+            />
+          </svg>
+
+          <div className="roadmap-steps">
+            {steps.map((s, i) => (
+              <div className={`rh-step reveal d${i + 1}${s.final ? ' rh-final' : ''}`} key={s.num}>
+                <div className="rh-num">{s.num}</div>
+                <div className="rh-circle">
+                  <span className="rh-icon">{s.icon}</span>
+                </div>
+                <div className="rh-title">{s.title}</div>
+                <div className="rh-sub">{s.sub}</div>
               </div>
-              <div className="pstep-title">{s.title}</div>
-              <p className="pstep-text">{s.text}</p>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </section>

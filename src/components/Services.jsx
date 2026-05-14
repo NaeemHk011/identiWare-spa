@@ -1,3 +1,7 @@
+import clinicalImg from '../assets/clinical-skincare.jpg'
+import medSpaInteriorImg from '../assets/medspa-interior.jpg'
+import treatmentRoomImg from '../assets/treatment-room.jpg'
+
 const services = [
   {
     num: '01',
@@ -9,23 +13,23 @@ const services = [
   {
     num: '02',
     icon: '🔨',
-    img: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=700&q=80&fit=crop',
+    img: clinicalImg,
     title: 'End-to-End Construction',
     text: 'Our vetted construction partners specialize in medical-grade luxury buildouts ADA-compliant, OSHA-ready, and built to the exacting standards of Identity Aesthetics across every single project.',
   },
   {
     num: '03',
     icon: '✨',
-    img: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=700&q=80&fit=crop',
+    img: medSpaInteriorImg,
     title: 'Luxury Interior Buildout',
     text: 'Every treatment room, reception area, and consultation suite is designed with our signature luxury aesthetic. Equipment sourced, furnishings curated, ambiance crafted from concept to champagne-pop opening day.',
   },
   {
     num: '04',
     icon: '⚙️',
-    img: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=700&q=80&fit=crop',
+    img: treatmentRoomImg,
     title: 'Complete Operating System',
-    text: 'Booking infrastructure, staff training manuals, clinical protocols, compliance documentation, and a full marketing playbook. The entire engine of a successful med spa installed and ready to run on day one.',
+    text: 'Clinical Protocols. Compliance Documentation. Booking infrastructure, staff training manuals, and a full marketing playbook   every system a licensed provider needs to open and operate compliantly from day one. The entire engine, installed and ready.',
   },
   {
     num: '05',
@@ -39,7 +43,7 @@ const services = [
     icon: '🤝',
     img: 'https://images.unsplash.com/photo-1551836022-4c4c79ecde51?w=700&q=80&fit=crop',
     title: 'Bespoke Deal Structuring',
-    text: 'Equity partnership, franchise model, or co-investment we architect arrangements that align incentives and maximize upside for both parties. No cookie-cutter contracts. Every deal is crafted for long-term success.',
+    text: 'MSO models, physician-compliant co-ownership structures, and bespoke legal arrangements built around the financial and regulatory realities of licensed medical providers. No generic contracts   every deal is architected for your license, your goals, and your long-term freedom.',
   },
 ]
 
@@ -50,9 +54,9 @@ export default function Services() {
         <div className="sec-tag">The Full Package</div>
         <h2 className="sec-h2">Six Things We <em>Handle For You</em></h2>
         <p className="sec-p">
-          From the moment you commit to partnership, every complex, time-consuming, high-stakes
-          element of opening a luxury med spa is managed by our team. We have done this five times.
-          The system is proven, refined, and ready.
+          From the moment a licensed provider commits to partnership, every complex, high-stakes
+          element of opening a compliant luxury med spa is handled by our team. Clinical protocols,
+          MSO structuring, turnkey buildout   proven across 5 Texas locations and ready for you.
         </p>
       </div>
 
